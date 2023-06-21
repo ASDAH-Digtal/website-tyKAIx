@@ -13,70 +13,70 @@
     grid-area: first;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: darkgrey;
-    padding: 50px;
+    background-color: #4b648a
+    padding 50px;
 }
 .second_one {
     grid-area: second_one;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: darkgrey;
+    background-color: #d0dff4;
     padding: 50px;
 }
 .second_two {
     grid-area: second_two;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: darkgrey;
+    background-color: #d0dff4;
     padding: 50px;
 }
 .third_one {
     grid-area: third_one;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: darkgrey;
+    background-color: #d0dff4;
     padding: 50px;  
 }
 .third_two {
     grid-area: third_two;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: darkgrey;
+    background-color: #d0dff4;
     padding: 50px;
 }
 .third three {
     grid-area: third three;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: darkgrey;
+    background-color: #d0dff4;
     padding: 50px;
 }
 .fourth_one {
     grid-area: fourth_one;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: darkgrey;
+    background-color: #4b648a;
     padding: 50px;
 }
 .fourth_two {
     grid-area: fourth_two;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: darkgrey;
+    background-color: #4b648a;
     padding: 50px;
 }
 .fourth_three {
     grid-area: fourth_three;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: darkgrey;
+    background-color: #4b648a;
     padding: 50px;
 }
 .fourth_four {
     grid-area: fourth_four;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: darkgrey;
+    background-color: #4b648a;
     padding: 50px;
 }
 
