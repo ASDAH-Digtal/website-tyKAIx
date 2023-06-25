@@ -1,12 +1,12 @@
 .container {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 4fr 1fr 2fr 2fr 1fr 4fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "first first first first first first"
-        "second_one second_one second_one second_two second_two second_two"
-        "third_one third_one thrid_two third_two thrid_three third_three"
-        "fourth_one fourth_two fourth_two fourth_three fourth_three fourth_four"
+        "header header"
+        "chess_one info"
+        "link to play chess link to contact"
+        "watermark watermark";
 }
 
 .first {
@@ -44,7 +44,7 @@
     background-color: #d0dff4;
     padding: 50px;
 }
-.third three {
+.third_three {
     grid-area: third three;
     border: 1px solid #000000;
     padding: 50px;
