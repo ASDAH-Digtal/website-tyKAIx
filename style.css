@@ -3,80 +3,52 @@
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "header header"
+        "header header "
         "chess_one info"
-        "link to play chess link to contact"
+        "play_chess contact"
         "watermark watermark";
 }
 
-.first {
-    grid-area: first;
+.header {
+    grid-area: header;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: #4b648a
-    padding 50px;
-}
-.second_one {
-    grid-area: second_one;
-    border: 1px solid #000000;
-    padding: 50px;
-    background-color: #d0dff4;
+    background-color: #32373B;
     padding: 50px;
 }
-.second_two {
-    grid-area: second_two;
+.chess_one {
+    grid-area: chess_one;
     border: 1px solid #000000;
-    padding: 50px;
-    background-color: #d0dff4;
-    padding: 50px;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
 }
-.third_one {
-    grid-area: third_one;
+.info {
+    grid-area: info;
     border: 1px solid #000000;
-    padding: 50px;
-    background-color: #d0dff4;
-    padding: 50px;  
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
 }
-.third_two {
-    grid-area: third_two;
+.play_chess {
+    grid-area: play_chess;
     border: 1px solid #000000;
-    padding: 50px;
-    background-color: #d0dff4;
-    padding: 50px;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
 }
-.third_three {
-    grid-area: third three;
+.contact {
+    grid-area: contact;
     border: 1px solid #000000;
-    padding: 50px;
-    background-color: #d0dff4;
-    padding: 50px;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
 }
-.fourth_one {
-    grid-area: fourth_one;
+.watermark {
+    grid-area: watermark;
     border: 1px solid #000000;
     padding: 50px;
-    background-color: #4b648a;
-    padding: 50px;
-}
-.fourth_two {
-    grid-area: fourth_two;
-    border: 1px solid #000000;
-    padding: 50px;
-    background-color: #4b648a;
-    padding: 50px;
-}
-.fourth_three {
-    grid-area: fourth_three;
-    border: 1px solid #000000;
-    padding: 50px;
-    background-color: #4b648a;
-    padding: 50px;
-}
-.fourth_four {
-    grid-area: fourth_four;
-    border: 1px solid #000000;
-    padding: 50px;
-    background-color: #4b648a;
+    background-color: #32373B;
     padding: 50px;
 }
 
