@@ -15,6 +15,8 @@
     padding: 50px;
     background-color: #32373B;
     padding: 50px;
+    text-align: center;
+    font-size: xx-large;
 }
 .chess_one {
     grid-area: chess_one;
@@ -22,6 +24,8 @@
     padding: 150px;
     background-color: #4A5859;
     padding: 150px;
+    text-align: center;
+    font-size: large;
 }
 .info {
     grid-area: info;
@@ -29,6 +33,8 @@
     padding: 150px;
     background-color: #4A5859;
     padding: 150px;
+    text-align: center;
+    font-size: large;
 }
 .play_chess {
     grid-area: play_chess;
@@ -36,6 +42,8 @@
     padding: 150px;
     background-color: #4A5859;
     padding: 150px;
+    text-align: center;
+    font-size: large;
 }
 .contact {
     grid-area: contact;
@@ -43,6 +51,8 @@
     padding: 150px;
     background-color: #4A5859;
     padding: 150px;
+    text-align: center;
+    font-size: large;
 }
 .watermark {
     grid-area: watermark;
@@ -50,6 +60,8 @@
     padding: 50px;
     background-color: #32373B;
     padding: 50px;
+    text-align: center;
+    font-size:xx-large
 }
 
   
