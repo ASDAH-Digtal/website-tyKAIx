@@ -1,0 +1,79 @@
+body{
+    background-image: url("chess.jpg"); 
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "header header "
+        "chess_one info"
+        "play_chess contact"
+        "watermark watermark";
+}
+
+.header {
+    grid-area: header;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #32373B;
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.chess_one {
+    grid-area: chess_one;
+    border: 1px solid #000000;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
+    text-align: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.info {
+    grid-area: info;
+    border: 1px solid #000000;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
+    text-align: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.play_chess {
+    grid-area: play_chess;
+    border: 1px solid #000000;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
+    text-align: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contact {
+    grid-area: contact;
+    border: 1px solid #000000;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
+    text-align: center;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.watermark {
+    grid-area: watermark;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #32373B;
+    padding: 50px;
+    text-align: center;
+    font-size:xx-large;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+  
+
