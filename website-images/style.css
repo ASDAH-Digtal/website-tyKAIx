@@ -26,7 +26,8 @@ body{
     padding: 50px;
     text-align: center;
     font-size: xx-large;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
 }
 .chess_one {
     grid-area: chess_one;
@@ -36,7 +37,8 @@ body{
     padding: 150px;
     text-align: center;
     font-size: large;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
 }
 .info {
     grid-area: info;
@@ -46,7 +48,8 @@ body{
     padding: 150px;
     text-align: center;
     font-size: large;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
 }
 .play_chess {
     grid-area: play_chess;
@@ -56,7 +59,8 @@ body{
     padding: 150px;
     text-align: center;
     font-size: large;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
 }
 .contact {
     grid-area: contact;
@@ -66,7 +70,8 @@ body{
     padding: 150px;
     text-align: center;
     font-size: large;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
 }
 .watermark {
     grid-area: watermark;
@@ -76,7 +81,8 @@ body{
     padding: 50px;
     text-align: center;
     font-size:xx-large;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
   
