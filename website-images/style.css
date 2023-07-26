@@ -20,69 +20,69 @@ body{
 
 .header {
     grid-area: header;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     padding: 50px;
     background-color: #32373B;
     padding: 50px;
     text-align: center;
     font-size: xx-large;
     background-color: rgba(0, 0, 0, 0.1);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .chess_one {
     grid-area: chess_one;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     padding: 150px;
     background-color: #4A5859;
     padding: 150px;
     text-align: center;
     font-size: large;
     background-color: rgba(0, 0, 0, 0.1);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 251, 251);
 }
 .info {
     grid-area: info;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     padding: 150px;
     background-color: #4A5859;
     padding: 150px;
     text-align: center;
     font-size: large;
     background-color: rgba(0, 0, 0, 0.1);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .play_chess {
     grid-area: play_chess;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     padding: 150px;
     background-color: #4A5859;
     padding: 150px;
     text-align: center;
     font-size: large;
     background-color: rgba(0, 0, 0, 0.1);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .contact {
     grid-area: contact;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     padding: 150px;
     background-color: #4A5859;
     padding: 150px;
     text-align: center;
     font-size: large;
     background-color: rgba(0, 0, 0, 0.1);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .watermark {
     grid-area: watermark;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     padding: 50px;
     background-color: #32373B;
     padding: 50px;
     text-align: center;
     font-size:xx-large;
     background-color: rgba(0, 0, 0, 0.1);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 }
 
