@@ -40,8 +40,8 @@ body{
     background-color: rgba(0, 0, 0, 0.1);
     color: rgb(255, 251, 251);
 }
-.info {
-    grid-area: info;
+.history {
+    grid-area: history;
     border: 2px solid #000000;
     padding: 150px;
     background-color: #4A5859;
@@ -51,8 +51,8 @@ body{
     background-color: rgba(0, 0, 0, 0.1);
     color: rgb(255, 255, 255);
 }
-.play_chess {
-    grid-area: play_chess;
+.why_you_should_consider_playing_chess {
+    grid-area: why you should consider playing chess;
     border: 2px solid #000000;
     padding: 150px;
     background-color: #4A5859;

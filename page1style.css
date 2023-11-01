@@ -1,12 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-image: url("chess.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .container {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns:  ;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        ""
-        ""
-        ""
-        "";
+        "header header "
+        "chess_history1 chess_history2"
+        "chess_history3 chess_history4";
 }
 
+.header {
+    grid-area: header;
+    border: 2px solid #000000;
+    padding: 50px;
+    background-color: #32373B;
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+}
+.chess_history1 {
+    grid-area: chess_history1;
+    border: 2px solid #000000;
+    padding: 200px;
+    background-color: #4A5859;
+    padding: 200px;
+    text-align: center;
+    /*font-size: large;*/
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 251, 251);
+    font-family: 'Open Sans', sans-serif;
+}
+.chess_history2 {
+    grid-area: chess_history2;
+    border: 2px solid #000000;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
+    text-align: center;
+    /*font-size: large;*/
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+.chess_history3 {
+    grid-area: chess_history3;
+    border: 2px solid #000000;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
+    text-align: center;
+    /*font-size: large;*/
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+.chess_history4 {
+    grid-area: chess_history4;
+    border: 2px solid #000000;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
+    text-align: center;
+    /*font-size: large;*/
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+  
 
