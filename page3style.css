@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-image: url("chess.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "header header"
+        "navbar navbar"
+        "contact_page1 contact_page2"
+        "contact_page3 contact_page4";
+}
+
+.header {
+    grid-area: header;
+    border: 1px solid #000000;
+    padding: 50px;
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+}
+.navbar {
+    grid-area: navbar;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav_home nav_chess nav_history nav_contact";
+}
+
+.navbar a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.nav_home {
+    grid-area: nav_home;
+    text-align: center;
+    background-color: #0000001f;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav_chess {
+    grid-area: nav_chess;
+    text-align: center;
+    background-color: #0000001f;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav_history {
+    grid-area: nav_history;
+    text-align: center;
+    background-color: #0000001f;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav_contact {
+    grid-area: nav_contact;
+    text-align: center;
+    background-color: #0000001f;
+    width: 100%;
+    padding: 20px;
+}
+
+.contact_page1 {
+    grid-area: contact_page1;
+    border: 1px solid #000000;
+    padding: 200px;
+    background-color: #4A5859;
+    padding: 200px;
+    text-align: center;
+    /*font-size: large;*/
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 251, 251);
+    font-family: 'Open Sans', sans-serif;
+}
+.contact_page2 {
+    grid-area: contact_page2;
+    border: 1px solid #000000;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
+    text-align: center;
+    /*font-size: large;*/
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+.contact_page3 {
+    grid-area: contact_page3;
+    border: 1px solid #000000;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
+    text-align: center;
+    /*font-size: large;*/
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+.contact_page4 {
+    grid-area: contact_page4;
+    border: 1px solid #000000;
+    padding: 150px;
+    background-color: #4A5859;
+    padding: 150px;
+    text-align: center;
+    /*font-size: large;*/
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
