@@ -15,8 +15,8 @@ body{
     grid-template-areas: 
         "header header"
         "navbar navbar"
-        "importance_chess1 importance_chess2"
-        "importance_chess3 importance_chess4";
+        "contact_page1 contact_page2"
+        "contact_page3 contact_page4";
 }
 
 .header {
@@ -75,8 +75,8 @@ body{
     padding: 20px;
 }
 
-.importance_chess1 {
-    grid-area: importance_chess1;
+.contact_page1 {
+    grid-area: contact_page1;
     border: 1px solid #000000;
     padding: 200px;
     background-color: #4A5859;
@@ -87,8 +87,8 @@ body{
     color: rgb(255, 251, 251);
     font-family: 'Open Sans', sans-serif;
 }
-.importance_chess2 {
-    grid-area: importance_chess2;
+.contact_page2 {
+    grid-area: contact_page2;
     border: 1px solid #000000;
     padding: 150px;
     background-color: #4A5859;
@@ -99,8 +99,8 @@ body{
     color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
 }
-.importance_chess3 {
-    grid-area: importance_chess3;
+.contact_page3 {
+    grid-area: contact_page3;
     border: 1px solid #000000;
     padding: 150px;
     background-color: #4A5859;
@@ -111,8 +111,8 @@ body{
     color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
 }
-.importance_chess4 {
-    grid-area: importance_chess4;
+.contact_page4 {
+    grid-area: contact_page4;
     border: 1px solid #000000;
     padding: 150px;
     background-color: #4A5859;
